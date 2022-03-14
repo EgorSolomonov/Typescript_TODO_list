@@ -1,0 +1,52 @@
+.TodoBottom_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.TodoBottom {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  border: 1px solid #504e4e;
+  border-radius: 5px;
+  padding: 0 15px;
+  margin-top: 1%;
+  cursor: pointer;
+}
+.TodoBottom:hover {
+  background-color: #1976d2;
+  box-shadow: 0 0 0 1px #1a1818;
+}
+
+.Todo_control {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+.Todo_control span {
+  width: 30px;
+  height: 30px;
+}
+
+.deleteIcon:hover {
+  color: #1a1818;
+}
+.deleteIcon:active {
+  color: rgb(190, 22, 50);
+}
+
+.done {
+  text-decoration: line-through;
+}
+.invisible {
+  display: none;
+}
+
+.deleteDoneTasksButton {
+  width: 75%;
+  display: flex;
+  justify-content: end;
+  margin-top: 3%;
+}

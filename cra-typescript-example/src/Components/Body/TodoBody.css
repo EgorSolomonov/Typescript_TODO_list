@@ -1,0 +1,23 @@
+.TodoBody_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.TodoBody {
+  width: 50%;
+}
+
+.TodoBody h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.taskButtons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.taskButtons button {
+  width: 150px;
+}
